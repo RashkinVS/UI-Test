@@ -1,4 +1,4 @@
-package org.example;
+package Pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,7 +26,7 @@ public class CalculatePageDivisionByZero {
     @FindBy(xpath = "//*[@id=\"rso\"]/div[1]/div/div/div[1]/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div")
     private WebElement findButtonEqual;
 
-    public void clickButtons()  {
+    public void clickButtonsDivisionByZero()  {
         findButton6.click();
         findButtonDivision.click();
         findButton0.click();
